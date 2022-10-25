@@ -26,7 +26,7 @@
   become: true
   ansible.builtin.service:
     name: httpd
-    state: started
+    state: started 
 
 - name: recursively remove /var/www/html/html/ directory
   become: true

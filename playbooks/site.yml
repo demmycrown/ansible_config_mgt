@@ -7,8 +7,8 @@
    tags:
     - always
 
- - hosts: webservers
- - name: Webserver assignment
+  - hosts: webservers
+  - name: Webserver assignment
      import_playbook: ../static-assignments/webservers.yml
 
  - name: Loadbalancers assignment

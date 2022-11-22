@@ -8,8 +8,8 @@
     - always
 
    hosts: webservers
-    name: webserver assignment
-     import_playbook: ../static-assignments/webservers.yml
+   name: webserver assignment
+   import_playbook: ../static-assignments/webservers.yml
   
  hosts: lb
  name: loadbalancers assignment
